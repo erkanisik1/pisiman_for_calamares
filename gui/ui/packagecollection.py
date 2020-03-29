@@ -124,4 +124,3 @@ class Ui_PackageCollectionDialog(object):
         self.selectIcon.setToolTip(_translate("PackageCollectionDialog", "Select Photo"))
         self.clearIcon.setToolTip(_translate("PackageCollectionDialog", "Clear Photo"))
 
-import raw_rc

@@ -105,4 +105,4 @@ class Ui_LanguagesDialog(object):
         self.label.setText(_translate("LanguagesDialog", "Available:"))
         self.label_2.setText(_translate("LanguagesDialog", "Selected:"))
 
-import raw_rc
+
