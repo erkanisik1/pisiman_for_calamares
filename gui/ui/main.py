@@ -13,7 +13,7 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(647, 405)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/raw/pics/pardusman.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("gui/ui/pics/pisilinux.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -233,7 +233,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Pisiman"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Pisiman For Calamares"))
         self.pushBrowseRepository.setText(_translate("MainWindow", "Browse"))
         self.label_3.setText(_translate("MainWindow", "Repository"))
         self.pushBrowseWorkFolder.setText(_translate("MainWindow", "Browse"))
