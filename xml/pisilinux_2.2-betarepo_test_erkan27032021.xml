@@ -1,8 +1,8 @@
 <PisiManProject type="Sddm" compression="xz">
-    <Title>Pisilinux-2.1-ATATURK-UEFI_KDE_x86_64</Title>
-    <WorkDir>/home/erkanisik/pisilinux21</WorkDir>
-    <ConfigFiles>/home/erkanisik/RCPisiman-1/config</ConfigFiles>
-    <PackageSelection repo_uri="https://ciftlik.pisilinux.org/2.0-Beta.1/pisi-index.xml.xz">
+    <Title>Pisilinux-2.1.2-Mehmetcik-UEFI_KDE_x86_64</Title>
+    <WorkDir>/media/yedekleme/Work</WorkDir>
+    <ConfigFiles>/media/yedekleme/GitHub/pisiman_for_calamares/config</ConfigFiles>
+    <PackageSelection repo_uri="file:///media/yedekleme/2.0-Beta.1/pisi-index.xml.xz">
         <SelectedComponent>desktop.kde.framework</SelectedComponent>
         <SelectedComponent>desktop.kde.plasma</SelectedComponent>
         <SelectedComponent>desktop.toolkit.qt5</SelectedComponent>
@@ -27,70 +27,26 @@
         <SelectedPackage>droid-fonts</SelectedPackage>
         <SelectedPackage>efitools</SelectedPackage>
         <SelectedPackage>firefox</SelectedPackage>
-        <SelectedPackage>firefox-lang-ca</SelectedPackage>
-        <SelectedPackage>firefox-lang-da</SelectedPackage>
-        <SelectedPackage>firefox-lang-de</SelectedPackage>
         <SelectedPackage>firefox-lang-en-US</SelectedPackage>
-        <SelectedPackage>firefox-lang-es-AR</SelectedPackage>
-        <SelectedPackage>firefox-lang-es-CL</SelectedPackage>
-        <SelectedPackage>firefox-lang-es-ES</SelectedPackage>
-        <SelectedPackage>firefox-lang-fr</SelectedPackage>
-        <SelectedPackage>firefox-lang-hr</SelectedPackage>
-        <SelectedPackage>firefox-lang-hu</SelectedPackage>
-        <SelectedPackage>firefox-lang-it</SelectedPackage>
-        <SelectedPackage>firefox-lang-nl</SelectedPackage>
-        <SelectedPackage>firefox-lang-pl</SelectedPackage>
-        <SelectedPackage>firefox-lang-pt-BR</SelectedPackage>
-        <SelectedPackage>firefox-lang-ro</SelectedPackage>
-        <SelectedPackage>firefox-lang-ru</SelectedPackage>
-        <SelectedPackage>firefox-lang-sv-SE</SelectedPackage>
         <SelectedPackage>firefox-lang-tr</SelectedPackage>
-        <SelectedPackage>firefox-lang-uk</SelectedPackage>
-        <SelectedPackage>foomatic-db</SelectedPackage>
         <SelectedPackage>foomatic-db</SelectedPackage>
         <SelectedPackage>foomatic-db-engine</SelectedPackage>
-        <SelectedPackage>foomatic-db-engine</SelectedPackage>
         <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
-        <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
-        <SelectedPackage>ghostscript</SelectedPackage>
         <SelectedPackage>ghostscript</SelectedPackage>
         <SelectedPackage>gimp</SelectedPackage>
         <SelectedPackage>gimp-data-extras</SelectedPackage>
         <SelectedPackage>gimp-dds-plugin</SelectedPackage>
         <SelectedPackage>gimp-focusblur-plugin</SelectedPackage>
         <SelectedPackage>gimp-gmic-plugin</SelectedPackage>
-        <SelectedPackage>gimp-i18n-de</SelectedPackage>
         <SelectedPackage>gimp-i18n-en_GB</SelectedPackage>
-        <SelectedPackage>gimp-i18n-es</SelectedPackage>
-        <SelectedPackage>gimp-i18n-fr</SelectedPackage>
-        <SelectedPackage>gimp-i18n-hr</SelectedPackage>
-        <SelectedPackage>gimp-i18n-hu</SelectedPackage>
-        <SelectedPackage>gimp-i18n-it</SelectedPackage>
-        <SelectedPackage>gimp-i18n-nl</SelectedPackage>
-        <SelectedPackage>gimp-i18n-pl</SelectedPackage>
-        <SelectedPackage>gimp-i18n-pt_BR</SelectedPackage>
-        <SelectedPackage>gimp-i18n-ru</SelectedPackage>
-        <SelectedPackage>gimp-i18n-sv</SelectedPackage>
         <SelectedPackage>gimp-i18n-tr</SelectedPackage>
-        <SelectedPackage>gimp-i18n-uk</SelectedPackage>
         <SelectedPackage>gimp-layer-effects</SelectedPackage>
         <SelectedPackage>gimp-lqr-plugin</SelectedPackage>
         <SelectedPackage>gimp-refocus-it-plugin</SelectedPackage>
         <SelectedPackage>gimp-resynthesizer</SelectedPackage>
         <SelectedPackage>gimp-save-for-web</SelectedPackage>
         <SelectedPackage>gimpfx-foundry</SelectedPackage>
-        <SelectedPackage>glibc-locales-ca</SelectedPackage>
-        <SelectedPackage>glibc-locales-de</SelectedPackage>
         <SelectedPackage>glibc-locales-en</SelectedPackage>
-        <SelectedPackage>glibc-locales-es</SelectedPackage>
-        <SelectedPackage>glibc-locales-fr</SelectedPackage>
-        <SelectedPackage>glibc-locales-hu</SelectedPackage>
-        <SelectedPackage>glibc-locales-it</SelectedPackage>
-        <SelectedPackage>glibc-locales-nl</SelectedPackage>
-        <SelectedPackage>glibc-locales-pl</SelectedPackage>
-        <SelectedPackage>glibc-locales-pt</SelectedPackage>
-        <SelectedPackage>glibc-locales-ru</SelectedPackage>
-        <SelectedPackage>glibc-locales-sv</SelectedPackage>
         <SelectedPackage>gpgme</SelectedPackage>
         <SelectedPackage>gst-libav</SelectedPackage>
         <SelectedPackage>gst-plugins-bad</SelectedPackage>
@@ -116,41 +72,23 @@
         <SelectedPackage>libmatroska</SelectedPackage>
         <SelectedPackage>libmpeg2</SelectedPackage>
         <SelectedPackage>libquicktime</SelectedPackage>
-        <SelectedPackage>libreoffice-base</SelectedPackage>
-        <SelectedPackage>libreoffice-ca</SelectedPackage>
-        <SelectedPackage>libreoffice-calc</SelectedPackage>
-        <SelectedPackage>libreoffice-common</SelectedPackage>
-        <SelectedPackage>libreoffice-de</SelectedPackage>
-        <SelectedPackage>libreoffice-draw</SelectedPackage>
-        <SelectedPackage>libreoffice-es</SelectedPackage>
-        <SelectedPackage>libreoffice-fr</SelectedPackage>
-        <SelectedPackage>libreoffice-hr</SelectedPackage>
-        <SelectedPackage>libreoffice-hu</SelectedPackage>
-        <SelectedPackage>libreoffice-impress</SelectedPackage>
-        <SelectedPackage>libreoffice-it</SelectedPackage>
-        <SelectedPackage>libreoffice-math</SelectedPackage>
-        <SelectedPackage>libreoffice-nl</SelectedPackage>
-        <SelectedPackage>libreoffice-pl</SelectedPackage>
-        <SelectedPackage>libreoffice-pt-BR</SelectedPackage>
-        <SelectedPackage>libreoffice-ru</SelectedPackage>
-        <SelectedPackage>libreoffice-tr</SelectedPackage>
-        <SelectedPackage>libreoffice-writer</SelectedPackage>
+        <SelectedPackage>libreoffice</SelectedPackage>
         <SelectedPackage>libva-intel-driver</SelectedPackage>
         <SelectedPackage>logrotate</SelectedPackage>
         <SelectedPackage>memtest86</SelectedPackage>
         <SelectedPackage>mkinitcpio</SelectedPackage>
         <SelectedPackage>module-bbswitch</SelectedPackage>
         <SelectedPackage>module-broadcom-wl</SelectedPackage>
-        <SelectedPackage>module-virtualbox-userspace</SelectedPackage>
         <SelectedPackage>nano</SelectedPackage>
         <SelectedPackage>noto-fonts</SelectedPackage>
+        <SelectedPackage>noto-fonts-ttf-croscore</SelectedPackage>
         <SelectedPackage>ntfs-3g</SelectedPackage>
+        <SelectedPackage>ntp-server</SelectedPackage>
         <SelectedPackage>okular</SelectedPackage>
         <SelectedPackage>package-manager</SelectedPackage>
         <SelectedPackage>parted</SelectedPackage>
         <SelectedPackage>partitionmanager</SelectedPackage>
         <SelectedPackage>pisilinux-gtk</SelectedPackage>
-        <SelectedPackage>pisilinux-theme-maia</SelectedPackage>
         <SelectedPackage>pisilinux-theme-maia</SelectedPackage>
         <SelectedPackage>pisilinux-welcome</SelectedPackage>
         <SelectedPackage>plymouth</SelectedPackage>
@@ -164,7 +102,6 @@
         <SelectedPackage>sddm-kcm</SelectedPackage>
         <SelectedPackage>service-manager</SelectedPackage>
         <SelectedPackage>smpeg</SelectedPackage>
-        <SelectedPackage>smplayer</SelectedPackage>
         <SelectedPackage>spectacle</SelectedPackage>
         <SelectedPackage>squashfs-tools</SelectedPackage>
         <SelectedPackage>startup-notification</SelectedPackage>
@@ -176,8 +113,8 @@
         <SelectedPackage>uuidd</SelectedPackage>
         <SelectedPackage>v4l-utils</SelectedPackage>
         <SelectedPackage>vdpau-video</SelectedPackage>
-        <SelectedPackage>virtualbox-guest-utils</SelectedPackage>
-        <SelectedPackage>vokoscreen</SelectedPackage>
+        <SelectedPackage>vlc</SelectedPackage>
+        <SelectedPackage>vokoscreenNG</SelectedPackage>
         <SelectedPackage>wget</SelectedPackage>
         <SelectedPackage>xdg-user-dirs</SelectedPackage>
         <SelectedPackage>xinit</SelectedPackage>
@@ -194,34 +131,14 @@
         <SelectedPackage>xorg-input-void</SelectedPackage>
         <SelectedPackage>xorg-input-wacom</SelectedPackage>
         <SelectedPackage>xorg-util</SelectedPackage>
-        <SelectedPackage>xorg-video-apm</SelectedPackage>
-        <SelectedPackage>xorg-video-cirrus</SelectedPackage>
         <SelectedPackage>xorg-video-dummy</SelectedPackage>
-        <SelectedPackage>xorg-video-fbdev</SelectedPackage>
-        <SelectedPackage>xorg-video-glint</SelectedPackage>
-        <SelectedPackage>xorg-video-i128</SelectedPackage>
         <SelectedPackage>xorg-video-i740</SelectedPackage>
         <SelectedPackage>xorg-video-intel</SelectedPackage>
-        <SelectedPackage>xorg-video-mach64</SelectedPackage>
-        <SelectedPackage>xorg-video-mga</SelectedPackage>
-        <SelectedPackage>xorg-video-neomagic</SelectedPackage>
         <SelectedPackage>xorg-video-nouveau</SelectedPackage>
-        <SelectedPackage>xorg-video-openchrome</SelectedPackage>
-        <SelectedPackage>xorg-video-r128</SelectedPackage>
         <SelectedPackage>xorg-video-radeon</SelectedPackage>
-        <SelectedPackage>xorg-video-rendition</SelectedPackage>
-        <SelectedPackage>xorg-video-s3virge</SelectedPackage>
-        <SelectedPackage>xorg-video-savage</SelectedPackage>
-        <SelectedPackage>xorg-video-siliconmotion</SelectedPackage>
-        <SelectedPackage>xorg-video-sis</SelectedPackage>
-        <SelectedPackage>xorg-video-sisusb</SelectedPackage>
-        <SelectedPackage>xorg-video-tdfx</SelectedPackage>
-        <SelectedPackage>xorg-video-tga</SelectedPackage>
-        <SelectedPackage>xorg-video-trident</SelectedPackage>
         <SelectedPackage>xorg-video-v4l</SelectedPackage>
         <SelectedPackage>xorg-video-vesa</SelectedPackage>
         <SelectedPackage>xorg-video-vmware</SelectedPackage>
-        <SelectedPackage>xorg-video-voodoo</SelectedPackage>
         <SelectedPackage>xterm</SelectedPackage>
         <SelectedPackage>xvba-video</SelectedPackage>
         <SelectedPackage>zemberek-office</SelectedPackage>
@@ -253,6 +170,7 @@
         <Package>audit</Package>
         <Package>autogen</Package>
         <Package>avahi</Package>
+        <Package>avahi-compat-libdns_sd</Package>
         <Package>avahi-glib</Package>
         <Package>avahi-libs</Package>
         <Package>b43-firmware</Package>
@@ -350,25 +268,8 @@
         <Package>findutils</Package>
         <Package>firebird-client</Package>
         <Package>firefox</Package>
-        <Package>firefox-lang-ca</Package>
-        <Package>firefox-lang-da</Package>
-        <Package>firefox-lang-de</Package>
         <Package>firefox-lang-en-US</Package>
-        <Package>firefox-lang-es-AR</Package>
-        <Package>firefox-lang-es-CL</Package>
-        <Package>firefox-lang-es-ES</Package>
-        <Package>firefox-lang-fr</Package>
-        <Package>firefox-lang-hr</Package>
-        <Package>firefox-lang-hu</Package>
-        <Package>firefox-lang-it</Package>
-        <Package>firefox-lang-nl</Package>
-        <Package>firefox-lang-pl</Package>
-        <Package>firefox-lang-pt-BR</Package>
-        <Package>firefox-lang-ro</Package>
-        <Package>firefox-lang-ru</Package>
-        <Package>firefox-lang-sv-SE</Package>
         <Package>firefox-lang-tr</Package>
-        <Package>firefox-lang-uk</Package>
         <Package>flac</Package>
         <Package>flite</Package>
         <Package>fontconfig</Package>
@@ -398,20 +299,8 @@
         <Package>gimp-dds-plugin</Package>
         <Package>gimp-focusblur-plugin</Package>
         <Package>gimp-gmic-plugin</Package>
-        <Package>gimp-i18n-de</Package>
         <Package>gimp-i18n-en_GB</Package>
-        <Package>gimp-i18n-es</Package>
-        <Package>gimp-i18n-fr</Package>
-        <Package>gimp-i18n-hr</Package>
-        <Package>gimp-i18n-hu</Package>
-        <Package>gimp-i18n-it</Package>
-        <Package>gimp-i18n-nl</Package>
-        <Package>gimp-i18n-pl</Package>
-        <Package>gimp-i18n-pt_BR</Package>
-        <Package>gimp-i18n-ru</Package>
-        <Package>gimp-i18n-sv</Package>
         <Package>gimp-i18n-tr</Package>
-        <Package>gimp-i18n-uk</Package>
         <Package>gimp-layer-effects</Package>
         <Package>gimp-lqr-plugin</Package>
         <Package>gimp-refocus-it-plugin</Package>
@@ -421,18 +310,7 @@
         <Package>glib-networking</Package>
         <Package>glib2</Package>
         <Package>glibc</Package>
-        <Package>glibc-locales-ca</Package>
-        <Package>glibc-locales-de</Package>
         <Package>glibc-locales-en</Package>
-        <Package>glibc-locales-es</Package>
-        <Package>glibc-locales-fr</Package>
-        <Package>glibc-locales-hu</Package>
-        <Package>glibc-locales-it</Package>
-        <Package>glibc-locales-nl</Package>
-        <Package>glibc-locales-pl</Package>
-        <Package>glibc-locales-pt</Package>
-        <Package>glibc-locales-ru</Package>
-        <Package>glibc-locales-sv</Package>
         <Package>glibmm</Package>
         <Package>gmp</Package>
         <Package>gnu-gs-fonts-std</Package>
@@ -481,8 +359,8 @@
         <Package>jansson</Package>
         <Package>jasper</Package>
         <Package>jbigkit</Package>
-        <Package>jre7-openjdk</Package>
         <Package>jre7-openjdk-headless</Package>
+        <Package>jre8-openjdk</Package>
         <Package>jre8-openjdk-headless</Package>
         <Package>json-c</Package>
         <Package>json-glib</Package>
@@ -737,25 +615,6 @@
         <Package>libraw</Package>
         <Package>libraw1394</Package>
         <Package>libreoffice</Package>
-        <Package>libreoffice-base</Package>
-        <Package>libreoffice-ca</Package>
-        <Package>libreoffice-calc</Package>
-        <Package>libreoffice-common</Package>
-        <Package>libreoffice-de</Package>
-        <Package>libreoffice-draw</Package>
-        <Package>libreoffice-es</Package>
-        <Package>libreoffice-fr</Package>
-        <Package>libreoffice-hr</Package>
-        <Package>libreoffice-hu</Package>
-        <Package>libreoffice-impress</Package>
-        <Package>libreoffice-it</Package>
-        <Package>libreoffice-math</Package>
-        <Package>libreoffice-nl</Package>
-        <Package>libreoffice-pl</Package>
-        <Package>libreoffice-pt-BR</Package>
-        <Package>libreoffice-ru</Package>
-        <Package>libreoffice-tr</Package>
-        <Package>libreoffice-writer</Package>
         <Package>librevenge</Package>
         <Package>librsvg</Package>
         <Package>libsamplerate</Package>
@@ -845,13 +704,9 @@
         <Package>module-bbswitch</Package>
         <Package>module-broadcom-wl</Package>
         <Package>module-broadcom-wl-userspace</Package>
-        <Package>module-virtualbox-guest</Package>
-        <Package>module-virtualbox-guest-userspace</Package>
-        <Package>module-virtualbox-userspace</Package>
         <Package>mpdecimal</Package>
         <Package>mpfr</Package>
         <Package>mpg123</Package>
-        <Package>mpv-player</Package>
         <Package>mtools</Package>
         <Package>mudur</Package>
         <Package>mypaint-brushes</Package>
@@ -859,16 +714,20 @@
         <Package>ncompress</Package>
         <Package>ncurses</Package>
         <Package>neon</Package>
+        <Package>net-snmp</Package>
         <Package>net-tools</Package>
         <Package>nettle</Package>
         <Package>networkmanager-qt</Package>
         <Package>newt</Package>
         <Package>noto-fonts</Package>
+        <Package>noto-fonts-ttf-croscore</Package>
         <Package>nspr</Package>
         <Package>nss</Package>
         <Package>nss-mdns</Package>
         <Package>ntfs-3g</Package>
         <Package>ntfsprogs</Package>
+        <Package>ntp-client</Package>
+        <Package>ntp-server</Package>
         <Package>okular</Package>
         <Package>openal</Package>
         <Package>openconnect</Package>
@@ -902,6 +761,7 @@
         <Package>pisilinux-theme-maia</Package>
         <Package>pisilinux-welcome</Package>
         <Package>pixman</Package>
+        <Package>plasma-browser-integration</Package>
         <Package>plasma-desktop</Package>
         <Package>plasma-framework</Package>
         <Package>plasma-integration</Package>
@@ -925,6 +785,7 @@
         <Package>polkit-kde-authentication-agent-1</Package>
         <Package>polkit-qt</Package>
         <Package>poppler</Package>
+        <Package>poppler-cpp</Package>
         <Package>poppler-data</Package>
         <Package>poppler-glib</Package>
         <Package>poppler-qt5</Package>
@@ -1041,7 +902,6 @@
         <Package>signon</Package>
         <Package>slang</Package>
         <Package>smpeg</Package>
-        <Package>smplayer</Package>
         <Package>snappy</Package>
         <Package>socat</Package>
         <Package>solid</Package>
@@ -1084,7 +944,6 @@
         <Package>upower</Package>
         <Package>urlgrabber</Package>
         <Package>usbutils</Package>
-        <Package>user-manager</Package>
         <Package>utempter</Package>
         <Package>util-linux</Package>
         <Package>uuidd</Package>
@@ -1093,9 +952,9 @@
         <Package>vamp-plugin-sdk</Package>
         <Package>vbetool</Package>
         <Package>vdpau-video</Package>
-        <Package>virtualbox-guest-utils</Package>
         <Package>vixie-cron</Package>
-        <Package>vokoscreen</Package>
+        <Package>vlc</Package>
+        <Package>vokoscreenNG</Package>
         <Package>volume_key</Package>
         <Package>wavpack</Package>
         <Package>wayland</Package>
@@ -1142,34 +1001,14 @@
         <Package>xorg-server-xvfb</Package>
         <Package>xorg-server-xwayland</Package>
         <Package>xorg-util</Package>
-        <Package>xorg-video-apm</Package>
-        <Package>xorg-video-cirrus</Package>
         <Package>xorg-video-dummy</Package>
-        <Package>xorg-video-fbdev</Package>
-        <Package>xorg-video-glint</Package>
-        <Package>xorg-video-i128</Package>
         <Package>xorg-video-i740</Package>
         <Package>xorg-video-intel</Package>
-        <Package>xorg-video-mach64</Package>
-        <Package>xorg-video-mga</Package>
-        <Package>xorg-video-neomagic</Package>
         <Package>xorg-video-nouveau</Package>
-        <Package>xorg-video-openchrome</Package>
-        <Package>xorg-video-r128</Package>
         <Package>xorg-video-radeon</Package>
-        <Package>xorg-video-rendition</Package>
-        <Package>xorg-video-s3virge</Package>
-        <Package>xorg-video-savage</Package>
-        <Package>xorg-video-siliconmotion</Package>
-        <Package>xorg-video-sis</Package>
-        <Package>xorg-video-sisusb</Package>
-        <Package>xorg-video-tdfx</Package>
-        <Package>xorg-video-tga</Package>
-        <Package>xorg-video-trident</Package>
         <Package>xorg-video-v4l</Package>
         <Package>xorg-video-vesa</Package>
         <Package>xorg-video-vmware</Package>
-        <Package>xorg-video-voodoo</Package>
         <Package>xterm</Package>
         <Package>xvba-video</Package>
         <Package>xvid</Package>
@@ -1203,70 +1042,26 @@
         <SelectedPackage>droid-fonts</SelectedPackage>
         <SelectedPackage>efitools</SelectedPackage>
         <SelectedPackage>firefox</SelectedPackage>
-        <SelectedPackage>firefox-lang-ca</SelectedPackage>
-        <SelectedPackage>firefox-lang-da</SelectedPackage>
-        <SelectedPackage>firefox-lang-de</SelectedPackage>
         <SelectedPackage>firefox-lang-en-US</SelectedPackage>
-        <SelectedPackage>firefox-lang-es-AR</SelectedPackage>
-        <SelectedPackage>firefox-lang-es-CL</SelectedPackage>
-        <SelectedPackage>firefox-lang-es-ES</SelectedPackage>
-        <SelectedPackage>firefox-lang-fr</SelectedPackage>
-        <SelectedPackage>firefox-lang-hr</SelectedPackage>
-        <SelectedPackage>firefox-lang-hu</SelectedPackage>
-        <SelectedPackage>firefox-lang-it</SelectedPackage>
-        <SelectedPackage>firefox-lang-nl</SelectedPackage>
-        <SelectedPackage>firefox-lang-pl</SelectedPackage>
-        <SelectedPackage>firefox-lang-pt-BR</SelectedPackage>
-        <SelectedPackage>firefox-lang-ro</SelectedPackage>
-        <SelectedPackage>firefox-lang-ru</SelectedPackage>
-        <SelectedPackage>firefox-lang-sv-SE</SelectedPackage>
         <SelectedPackage>firefox-lang-tr</SelectedPackage>
-        <SelectedPackage>firefox-lang-uk</SelectedPackage>
-        <SelectedPackage>foomatic-db</SelectedPackage>
         <SelectedPackage>foomatic-db</SelectedPackage>
         <SelectedPackage>foomatic-db-engine</SelectedPackage>
-        <SelectedPackage>foomatic-db-engine</SelectedPackage>
         <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
-        <SelectedPackage>gfxtheme-pisilinux-install</SelectedPackage>
-        <SelectedPackage>ghostscript</SelectedPackage>
         <SelectedPackage>ghostscript</SelectedPackage>
         <SelectedPackage>gimp</SelectedPackage>
         <SelectedPackage>gimp-data-extras</SelectedPackage>
         <SelectedPackage>gimp-dds-plugin</SelectedPackage>
         <SelectedPackage>gimp-focusblur-plugin</SelectedPackage>
         <SelectedPackage>gimp-gmic-plugin</SelectedPackage>
-        <SelectedPackage>gimp-i18n-de</SelectedPackage>
         <SelectedPackage>gimp-i18n-en_GB</SelectedPackage>
-        <SelectedPackage>gimp-i18n-es</SelectedPackage>
-        <SelectedPackage>gimp-i18n-fr</SelectedPackage>
-        <SelectedPackage>gimp-i18n-hr</SelectedPackage>
-        <SelectedPackage>gimp-i18n-hu</SelectedPackage>
-        <SelectedPackage>gimp-i18n-it</SelectedPackage>
-        <SelectedPackage>gimp-i18n-nl</SelectedPackage>
-        <SelectedPackage>gimp-i18n-pl</SelectedPackage>
-        <SelectedPackage>gimp-i18n-pt_BR</SelectedPackage>
-        <SelectedPackage>gimp-i18n-ru</SelectedPackage>
-        <SelectedPackage>gimp-i18n-sv</SelectedPackage>
         <SelectedPackage>gimp-i18n-tr</SelectedPackage>
-        <SelectedPackage>gimp-i18n-uk</SelectedPackage>
         <SelectedPackage>gimp-layer-effects</SelectedPackage>
         <SelectedPackage>gimp-lqr-plugin</SelectedPackage>
         <SelectedPackage>gimp-refocus-it-plugin</SelectedPackage>
         <SelectedPackage>gimp-resynthesizer</SelectedPackage>
         <SelectedPackage>gimp-save-for-web</SelectedPackage>
         <SelectedPackage>gimpfx-foundry</SelectedPackage>
-        <SelectedPackage>glibc-locales-ca</SelectedPackage>
-        <SelectedPackage>glibc-locales-de</SelectedPackage>
         <SelectedPackage>glibc-locales-en</SelectedPackage>
-        <SelectedPackage>glibc-locales-es</SelectedPackage>
-        <SelectedPackage>glibc-locales-fr</SelectedPackage>
-        <SelectedPackage>glibc-locales-hu</SelectedPackage>
-        <SelectedPackage>glibc-locales-it</SelectedPackage>
-        <SelectedPackage>glibc-locales-nl</SelectedPackage>
-        <SelectedPackage>glibc-locales-pl</SelectedPackage>
-        <SelectedPackage>glibc-locales-pt</SelectedPackage>
-        <SelectedPackage>glibc-locales-ru</SelectedPackage>
-        <SelectedPackage>glibc-locales-sv</SelectedPackage>
         <SelectedPackage>gpgme</SelectedPackage>
         <SelectedPackage>gst-libav</SelectedPackage>
         <SelectedPackage>gst-plugins-bad</SelectedPackage>
@@ -1292,41 +1087,23 @@
         <SelectedPackage>libmatroska</SelectedPackage>
         <SelectedPackage>libmpeg2</SelectedPackage>
         <SelectedPackage>libquicktime</SelectedPackage>
-        <SelectedPackage>libreoffice-base</SelectedPackage>
-        <SelectedPackage>libreoffice-ca</SelectedPackage>
-        <SelectedPackage>libreoffice-calc</SelectedPackage>
-        <SelectedPackage>libreoffice-common</SelectedPackage>
-        <SelectedPackage>libreoffice-de</SelectedPackage>
-        <SelectedPackage>libreoffice-draw</SelectedPackage>
-        <SelectedPackage>libreoffice-es</SelectedPackage>
-        <SelectedPackage>libreoffice-fr</SelectedPackage>
-        <SelectedPackage>libreoffice-hr</SelectedPackage>
-        <SelectedPackage>libreoffice-hu</SelectedPackage>
-        <SelectedPackage>libreoffice-impress</SelectedPackage>
-        <SelectedPackage>libreoffice-it</SelectedPackage>
-        <SelectedPackage>libreoffice-math</SelectedPackage>
-        <SelectedPackage>libreoffice-nl</SelectedPackage>
-        <SelectedPackage>libreoffice-pl</SelectedPackage>
-        <SelectedPackage>libreoffice-pt-BR</SelectedPackage>
-        <SelectedPackage>libreoffice-ru</SelectedPackage>
-        <SelectedPackage>libreoffice-tr</SelectedPackage>
-        <SelectedPackage>libreoffice-writer</SelectedPackage>
+        <SelectedPackage>libreoffice</SelectedPackage>
         <SelectedPackage>libva-intel-driver</SelectedPackage>
         <SelectedPackage>logrotate</SelectedPackage>
         <SelectedPackage>memtest86</SelectedPackage>
         <SelectedPackage>mkinitcpio</SelectedPackage>
         <SelectedPackage>module-bbswitch</SelectedPackage>
         <SelectedPackage>module-broadcom-wl</SelectedPackage>
-        <SelectedPackage>module-virtualbox-userspace</SelectedPackage>
         <SelectedPackage>nano</SelectedPackage>
         <SelectedPackage>noto-fonts</SelectedPackage>
+        <SelectedPackage>noto-fonts-ttf-croscore</SelectedPackage>
         <SelectedPackage>ntfs-3g</SelectedPackage>
+        <SelectedPackage>ntp-server</SelectedPackage>
         <SelectedPackage>okular</SelectedPackage>
         <SelectedPackage>package-manager</SelectedPackage>
         <SelectedPackage>parted</SelectedPackage>
         <SelectedPackage>partitionmanager</SelectedPackage>
         <SelectedPackage>pisilinux-gtk</SelectedPackage>
-        <SelectedPackage>pisilinux-theme-maia</SelectedPackage>
         <SelectedPackage>pisilinux-theme-maia</SelectedPackage>
         <SelectedPackage>pisilinux-welcome</SelectedPackage>
         <SelectedPackage>plymouth</SelectedPackage>
@@ -1340,7 +1117,6 @@
         <SelectedPackage>sddm-kcm</SelectedPackage>
         <SelectedPackage>service-manager</SelectedPackage>
         <SelectedPackage>smpeg</SelectedPackage>
-        <SelectedPackage>smplayer</SelectedPackage>
         <SelectedPackage>spectacle</SelectedPackage>
         <SelectedPackage>squashfs-tools</SelectedPackage>
         <SelectedPackage>startup-notification</SelectedPackage>
@@ -1352,8 +1128,8 @@
         <SelectedPackage>uuidd</SelectedPackage>
         <SelectedPackage>v4l-utils</SelectedPackage>
         <SelectedPackage>vdpau-video</SelectedPackage>
-        <SelectedPackage>virtualbox-guest-utils</SelectedPackage>
-        <SelectedPackage>vokoscreen</SelectedPackage>
+        <SelectedPackage>vlc</SelectedPackage>
+        <SelectedPackage>vokoscreenNG</SelectedPackage>
         <SelectedPackage>wget</SelectedPackage>
         <SelectedPackage>xdg-user-dirs</SelectedPackage>
         <SelectedPackage>xinit</SelectedPackage>
@@ -1370,34 +1146,14 @@
         <SelectedPackage>xorg-input-void</SelectedPackage>
         <SelectedPackage>xorg-input-wacom</SelectedPackage>
         <SelectedPackage>xorg-util</SelectedPackage>
-        <SelectedPackage>xorg-video-apm</SelectedPackage>
-        <SelectedPackage>xorg-video-cirrus</SelectedPackage>
         <SelectedPackage>xorg-video-dummy</SelectedPackage>
-        <SelectedPackage>xorg-video-fbdev</SelectedPackage>
-        <SelectedPackage>xorg-video-glint</SelectedPackage>
-        <SelectedPackage>xorg-video-i128</SelectedPackage>
         <SelectedPackage>xorg-video-i740</SelectedPackage>
         <SelectedPackage>xorg-video-intel</SelectedPackage>
-        <SelectedPackage>xorg-video-mach64</SelectedPackage>
-        <SelectedPackage>xorg-video-mga</SelectedPackage>
-        <SelectedPackage>xorg-video-neomagic</SelectedPackage>
         <SelectedPackage>xorg-video-nouveau</SelectedPackage>
-        <SelectedPackage>xorg-video-openchrome</SelectedPackage>
-        <SelectedPackage>xorg-video-r128</SelectedPackage>
         <SelectedPackage>xorg-video-radeon</SelectedPackage>
-        <SelectedPackage>xorg-video-rendition</SelectedPackage>
-        <SelectedPackage>xorg-video-s3virge</SelectedPackage>
-        <SelectedPackage>xorg-video-savage</SelectedPackage>
-        <SelectedPackage>xorg-video-siliconmotion</SelectedPackage>
-        <SelectedPackage>xorg-video-sis</SelectedPackage>
-        <SelectedPackage>xorg-video-sisusb</SelectedPackage>
-        <SelectedPackage>xorg-video-tdfx</SelectedPackage>
-        <SelectedPackage>xorg-video-tga</SelectedPackage>
-        <SelectedPackage>xorg-video-trident</SelectedPackage>
         <SelectedPackage>xorg-video-v4l</SelectedPackage>
         <SelectedPackage>xorg-video-vesa</SelectedPackage>
         <SelectedPackage>xorg-video-vmware</SelectedPackage>
-        <SelectedPackage>xorg-video-voodoo</SelectedPackage>
         <SelectedPackage>xterm</SelectedPackage>
         <SelectedPackage>xvba-video</SelectedPackage>
         <SelectedPackage>zemberek-office</SelectedPackage>
@@ -1429,6 +1185,7 @@
         <Package>audit</Package>
         <Package>autogen</Package>
         <Package>avahi</Package>
+        <Package>avahi-compat-libdns_sd</Package>
         <Package>avahi-glib</Package>
         <Package>avahi-libs</Package>
         <Package>b43-firmware</Package>
@@ -1526,25 +1283,8 @@
         <Package>findutils</Package>
         <Package>firebird-client</Package>
         <Package>firefox</Package>
-        <Package>firefox-lang-ca</Package>
-        <Package>firefox-lang-da</Package>
-        <Package>firefox-lang-de</Package>
         <Package>firefox-lang-en-US</Package>
-        <Package>firefox-lang-es-AR</Package>
-        <Package>firefox-lang-es-CL</Package>
-        <Package>firefox-lang-es-ES</Package>
-        <Package>firefox-lang-fr</Package>
-        <Package>firefox-lang-hr</Package>
-        <Package>firefox-lang-hu</Package>
-        <Package>firefox-lang-it</Package>
-        <Package>firefox-lang-nl</Package>
-        <Package>firefox-lang-pl</Package>
-        <Package>firefox-lang-pt-BR</Package>
-        <Package>firefox-lang-ro</Package>
-        <Package>firefox-lang-ru</Package>
-        <Package>firefox-lang-sv-SE</Package>
         <Package>firefox-lang-tr</Package>
-        <Package>firefox-lang-uk</Package>
         <Package>flac</Package>
         <Package>flite</Package>
         <Package>fontconfig</Package>
@@ -1574,20 +1314,8 @@
         <Package>gimp-dds-plugin</Package>
         <Package>gimp-focusblur-plugin</Package>
         <Package>gimp-gmic-plugin</Package>
-        <Package>gimp-i18n-de</Package>
         <Package>gimp-i18n-en_GB</Package>
-        <Package>gimp-i18n-es</Package>
-        <Package>gimp-i18n-fr</Package>
-        <Package>gimp-i18n-hr</Package>
-        <Package>gimp-i18n-hu</Package>
-        <Package>gimp-i18n-it</Package>
-        <Package>gimp-i18n-nl</Package>
-        <Package>gimp-i18n-pl</Package>
-        <Package>gimp-i18n-pt_BR</Package>
-        <Package>gimp-i18n-ru</Package>
-        <Package>gimp-i18n-sv</Package>
         <Package>gimp-i18n-tr</Package>
-        <Package>gimp-i18n-uk</Package>
         <Package>gimp-layer-effects</Package>
         <Package>gimp-lqr-plugin</Package>
         <Package>gimp-refocus-it-plugin</Package>
@@ -1597,18 +1325,7 @@
         <Package>glib-networking</Package>
         <Package>glib2</Package>
         <Package>glibc</Package>
-        <Package>glibc-locales-ca</Package>
-        <Package>glibc-locales-de</Package>
         <Package>glibc-locales-en</Package>
-        <Package>glibc-locales-es</Package>
-        <Package>glibc-locales-fr</Package>
-        <Package>glibc-locales-hu</Package>
-        <Package>glibc-locales-it</Package>
-        <Package>glibc-locales-nl</Package>
-        <Package>glibc-locales-pl</Package>
-        <Package>glibc-locales-pt</Package>
-        <Package>glibc-locales-ru</Package>
-        <Package>glibc-locales-sv</Package>
         <Package>glibmm</Package>
         <Package>gmp</Package>
         <Package>gnu-gs-fonts-std</Package>
@@ -1657,8 +1374,8 @@
         <Package>jansson</Package>
         <Package>jasper</Package>
         <Package>jbigkit</Package>
-        <Package>jre7-openjdk</Package>
         <Package>jre7-openjdk-headless</Package>
+        <Package>jre8-openjdk</Package>
         <Package>jre8-openjdk-headless</Package>
         <Package>json-c</Package>
         <Package>json-glib</Package>
@@ -1913,25 +1630,6 @@
         <Package>libraw</Package>
         <Package>libraw1394</Package>
         <Package>libreoffice</Package>
-        <Package>libreoffice-base</Package>
-        <Package>libreoffice-ca</Package>
-        <Package>libreoffice-calc</Package>
-        <Package>libreoffice-common</Package>
-        <Package>libreoffice-de</Package>
-        <Package>libreoffice-draw</Package>
-        <Package>libreoffice-es</Package>
-        <Package>libreoffice-fr</Package>
-        <Package>libreoffice-hr</Package>
-        <Package>libreoffice-hu</Package>
-        <Package>libreoffice-impress</Package>
-        <Package>libreoffice-it</Package>
-        <Package>libreoffice-math</Package>
-        <Package>libreoffice-nl</Package>
-        <Package>libreoffice-pl</Package>
-        <Package>libreoffice-pt-BR</Package>
-        <Package>libreoffice-ru</Package>
-        <Package>libreoffice-tr</Package>
-        <Package>libreoffice-writer</Package>
         <Package>librevenge</Package>
         <Package>librsvg</Package>
         <Package>libsamplerate</Package>
@@ -2021,13 +1719,9 @@
         <Package>module-bbswitch</Package>
         <Package>module-broadcom-wl</Package>
         <Package>module-broadcom-wl-userspace</Package>
-        <Package>module-virtualbox-guest</Package>
-        <Package>module-virtualbox-guest-userspace</Package>
-        <Package>module-virtualbox-userspace</Package>
         <Package>mpdecimal</Package>
         <Package>mpfr</Package>
         <Package>mpg123</Package>
-        <Package>mpv-player</Package>
         <Package>mtools</Package>
         <Package>mudur</Package>
         <Package>mypaint-brushes</Package>
@@ -2035,16 +1729,20 @@
         <Package>ncompress</Package>
         <Package>ncurses</Package>
         <Package>neon</Package>
+        <Package>net-snmp</Package>
         <Package>net-tools</Package>
         <Package>nettle</Package>
         <Package>networkmanager-qt</Package>
         <Package>newt</Package>
         <Package>noto-fonts</Package>
+        <Package>noto-fonts-ttf-croscore</Package>
         <Package>nspr</Package>
         <Package>nss</Package>
         <Package>nss-mdns</Package>
         <Package>ntfs-3g</Package>
         <Package>ntfsprogs</Package>
+        <Package>ntp-client</Package>
+        <Package>ntp-server</Package>
         <Package>okular</Package>
         <Package>openal</Package>
         <Package>openconnect</Package>
@@ -2078,6 +1776,7 @@
         <Package>pisilinux-theme-maia</Package>
         <Package>pisilinux-welcome</Package>
         <Package>pixman</Package>
+        <Package>plasma-browser-integration</Package>
         <Package>plasma-desktop</Package>
         <Package>plasma-framework</Package>
         <Package>plasma-integration</Package>
@@ -2101,6 +1800,7 @@
         <Package>polkit-kde-authentication-agent-1</Package>
         <Package>polkit-qt</Package>
         <Package>poppler</Package>
+        <Package>poppler-cpp</Package>
         <Package>poppler-data</Package>
         <Package>poppler-glib</Package>
         <Package>poppler-qt5</Package>
@@ -2217,7 +1917,6 @@
         <Package>signon</Package>
         <Package>slang</Package>
         <Package>smpeg</Package>
-        <Package>smplayer</Package>
         <Package>snappy</Package>
         <Package>socat</Package>
         <Package>solid</Package>
@@ -2260,7 +1959,6 @@
         <Package>upower</Package>
         <Package>urlgrabber</Package>
         <Package>usbutils</Package>
-        <Package>user-manager</Package>
         <Package>utempter</Package>
         <Package>util-linux</Package>
         <Package>uuidd</Package>
@@ -2269,9 +1967,9 @@
         <Package>vamp-plugin-sdk</Package>
         <Package>vbetool</Package>
         <Package>vdpau-video</Package>
-        <Package>virtualbox-guest-utils</Package>
         <Package>vixie-cron</Package>
-        <Package>vokoscreen</Package>
+        <Package>vlc</Package>
+        <Package>vokoscreenNG</Package>
         <Package>volume_key</Package>
         <Package>wavpack</Package>
         <Package>wayland</Package>
@@ -2318,34 +2016,14 @@
         <Package>xorg-server-xvfb</Package>
         <Package>xorg-server-xwayland</Package>
         <Package>xorg-util</Package>
-        <Package>xorg-video-apm</Package>
-        <Package>xorg-video-cirrus</Package>
         <Package>xorg-video-dummy</Package>
-        <Package>xorg-video-fbdev</Package>
-        <Package>xorg-video-glint</Package>
-        <Package>xorg-video-i128</Package>
         <Package>xorg-video-i740</Package>
         <Package>xorg-video-intel</Package>
-        <Package>xorg-video-mach64</Package>
-        <Package>xorg-video-mga</Package>
-        <Package>xorg-video-neomagic</Package>
         <Package>xorg-video-nouveau</Package>
-        <Package>xorg-video-openchrome</Package>
-        <Package>xorg-video-r128</Package>
         <Package>xorg-video-radeon</Package>
-        <Package>xorg-video-rendition</Package>
-        <Package>xorg-video-s3virge</Package>
-        <Package>xorg-video-savage</Package>
-        <Package>xorg-video-siliconmotion</Package>
-        <Package>xorg-video-sis</Package>
-        <Package>xorg-video-sisusb</Package>
-        <Package>xorg-video-tdfx</Package>
-        <Package>xorg-video-tga</Package>
-        <Package>xorg-video-trident</Package>
         <Package>xorg-video-v4l</Package>
         <Package>xorg-video-vesa</Package>
         <Package>xorg-video-vmware</Package>
-        <Package>xorg-video-voodoo</Package>
         <Package>xterm</Package>
         <Package>xvba-video</Package>
         <Package>xvid</Package>
